@@ -17,7 +17,7 @@ if token:
     sp.trace = False
     playlists = {}
     # Create playlists for each semester if they don't already exist
-    semesters = [
+    semesters = [ #Semesters based off of the UT Austin 2017-2021 schedule
         ('Fall 2017', '2017-08-01', '2017-12-31'),
         ('Spring 2018', '2018-01-01', '2018-05-31'),
         ('Summer 2018', '2018-06-01', '2018-08-31'),
